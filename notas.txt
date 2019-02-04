@@ -1,0 +1,5 @@
+Video 7.1 por ver
+
+control D  selecciona semejanzas
+shitf control fecha derecha selecciona por bloque de palabra
+control y el simbolo portugues comenta una codigo en html

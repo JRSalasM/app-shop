@@ -1,0 +1,48 @@
+cd..
+php artisan make:model Category -m
+php artisan migrate
+cd..
+php artisan serve
+cd..
+cls
+php artisan make:model Product -m
+php artisan migrate
+cd..
+php artisan serve
+php artisan make:model Category -m
+php artisan migrate
+cd..
+php artisan serve
+cd..
+cls
+php artisan make:model Product -m
+php artisan migrate
+php artisan serve
+
+cd..
+cd app-shop
+php artisan db:seed
+php artisan make:seeder ProducsTableSeeder
+php artisan make:factory ProductFactory
+php artisan migrate:refresh --seed
+php artisan migrate
+cd..
+php artisan serve
+cd..
+cls
+php artisan make:controller ProductController
+cd..
+php artisan serve
+cs..
+cd..
+cls
+cd..
+cls
+php artisan serve
+cd ..
+cls
+php artisan serve
+php artisan serve
+cd..
+php artisan migrate:refresh --seed
+cls
